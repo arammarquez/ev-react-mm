@@ -7,6 +7,7 @@ import Mine_logo from './mine_logo.png'
 import Rectangle from './Rectangle 11.png'
 import EventImg from './8 2.png'
 import Render from './Renderer Desktop - Stadium 2.png'
+import About_img from './pexels-wendy-wei-1916817 1.png'
 
 
 export{
@@ -19,5 +20,6 @@ export{
     Rectangle,
     EventImg,
     Render,
-    
+    About_img,
+
 }
