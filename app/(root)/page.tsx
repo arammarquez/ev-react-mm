@@ -5,6 +5,8 @@ import Link from 'next/link'
 import { FaCheck } from "react-icons/fa";
 import { FaXmark } from "react-icons/fa6";
 import useScrollAnimation from '@/Hooks/useScrollAnimation';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheck } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -113,6 +115,7 @@ export default function Home() {
                         <tbody>
                         <tr>
                             <td>Create and List Events</td>
+                            
                             <td className="tc"><FaCheck  className="small_icon green"/></td>
                             <td className="tc"><FaCheck  className="small_icon green"/></td>
                         </tr>

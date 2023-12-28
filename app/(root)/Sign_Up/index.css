@@ -85,12 +85,11 @@ background: radial-gradient(79.36% 84.72% at -61.47% 22.46%, rgba(99, 99, 99, 0.
 }
 
 .sign_btnss a {
-    padding: 5px 10px;
+    padding: 5px;
     border: 1px solid var(--color-yellow);
     border-radius: 30px;
     transition: all ease-in-out 0.2s;
     color: white;
-
 
 }
 
