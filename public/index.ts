@@ -8,6 +8,8 @@ import Rectangle from './Rectangle 11.png'
 import EventImg from './8 2.png'
 import Render from './Renderer Desktop - Stadium 2.png'
 import About_img from './pexels-wendy-wei-1916817 1.png'
+import Ellispse from './Ellipse.png'
+import Landingmain from './landingMain.png'
 
 
 export{
@@ -21,5 +23,8 @@ export{
     EventImg,
     Render,
     About_img,
+    Ellispse,
+    Landingmain,
+    
 
 }

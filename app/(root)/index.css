@@ -11,7 +11,7 @@ main{
     height: 100%;
 }
 .main_container {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     margin-top: 40px;
     background-color: transparent;
@@ -38,17 +38,31 @@ main{
 /* head=======er */
 
 
+.back_hero_img{
+    position: absolute;
+    width: 745.2952px;
+    height: 574.6383px;
+    left: 0;
+  transition: all 1s ease-in-out;
+  /* rotate: 30deg; */
+}
 .main_header_section{
-    background: url(../../public/549b4384920328a7ba685f3448c71e1a.png);
-    padding-bottom: 100px;
-    background-size: 900px;
-    background-repeat: no-repeat;
-    background-position: right;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 60px;
+}
+.Hero_imgs{
+    position: relative;
+}
+.Hero_img{
+    width: 745.2952px;
+    height: 574.6383px;
+    /* position: absolute; */
 }
 .header_section{
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 40px;
+    /* margin-left: 40px; */
+    /* margin-top: 40px; */
     background-color: transparent;
     position: relative;
 }
