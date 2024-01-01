@@ -26,6 +26,7 @@ const Login = () => {
                     <div className="coustomer_form">
                         <h2>CUSTOMERS</h2>
                             <form action="" className="login_cous">
+                              
                                     <p>Already have an account?</p>
                                     <h2>Login</h2>
                                     <label htmlFor="">Email:</label>
@@ -41,6 +42,7 @@ const Login = () => {
                                 <Link href="/Sign_Up" className="cursor_pointer">Sign Up</Link>
 
                             </div>
+                            <Link href="/Login_org">Or login as <span className='yellow_cr'>Organizer</span> </Link>
 
                         </div>
                 </div>

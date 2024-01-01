@@ -16,7 +16,8 @@ const SingleEvent = () => {
         <div className='main_container'>
             <div className='single_event_sec'>
                 <div className="single_event_upper">
-                    <Image src={EventImg} alt='EventImg' className="single_event_img" />
+                        <Image src={EventImg} alt='EventImg' className="single_event_img" />
+
                 </div>
                 <div className="single_event_lower">
                     <div className="single_event_info">

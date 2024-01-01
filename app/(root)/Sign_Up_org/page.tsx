@@ -46,6 +46,7 @@ const Sign_Up_org = () => {
                                 <p>Already have an account?</p>
                                 <Link href="/Login_org" className="cursor_pointer" >Login</Link>
                             </div>
+                            <Link href="/Sign_Up">Or Sign up as <span className='yellow_cr'>Customer</span> </Link>
                             
                         </div>
                 </div>

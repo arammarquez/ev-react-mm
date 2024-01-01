@@ -33,6 +33,7 @@ const Sign_Up = () => {
                                 <Link href="/Login" className="cursor_pointer" >Login</Link>
 
                             </div>
+                            <Link href="/Sign_Up_org">Or Sign up as <span className='yellow_cr'>Organizer</span> </Link>
                         </div>
                 </div>
             </div>
