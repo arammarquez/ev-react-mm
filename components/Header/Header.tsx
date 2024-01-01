@@ -37,7 +37,6 @@ const Header = () => {
                     <li><a href="./newevent.html" className="li_active">CREATE EVENT</a></li>
                 </ul>
             </div>
-            {/* <a className="login-button yellow_cr res_none" href="./login.html">Login</a> */}
             <Link href="/Login" className="login-button yellow_cr res_none">Login</Link>
 
         </nav>

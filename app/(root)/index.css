@@ -27,7 +27,7 @@ main{
     top: -237px;
     left: -720px;
     z-index: 1;
-    width: 1117px;
+    width: 1083px;
     image-rendering: optimizeQuality;
     height: 799px;
     
@@ -360,3 +360,99 @@ main{
 
 
 
+@media screen and (max-width: 1024px) {
+    .back_hero_img{
+        height: 251.4513px;
+        width: 326.1277px;
+    }
+    .Hero_img{
+        height: 251.4513px;
+        width: 326.1277px;
+        
+    }
+    .main_header_section{
+        width: 90%;
+        margin:50px 80px 50px 45px;
+        
+    }
+    .header_box{
+        gap: 0px;
+    }
+    .header_section{
+        width: 55%;
+        /* margin-right: 20px; */
+    }
+    .show_imgs img:nth-child(1) {
+        box-shadow: 0px 4px 4px 10px rgba(0, 0, 0, 0.25);
+        width: 260px;
+        height: 160px;
+        margin-left: -75px;
+    }
+
+    .show_imgs img:nth-child(2) {
+        margin-top: -35px;
+        margin-left: -40px;
+        width: 260px;
+        height: 140px;
+    }
+
+    .show_imgs img:nth-child(3) {
+        margin-top: -35px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        width: 260px;
+        height: 140px;
+    }
+    .show_info h2{
+        font-size: 30px;
+    }
+    .show_info p{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+     .show_container {
+        justify-content: center;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .back_hero_img{
+        height: 251.4513px;
+        width: 326.1277px;
+    }
+    .Hero_img{
+        height: 251.4513px;
+        width: 326.1277px;
+        
+    }
+    .main_header_section{
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .header_section{
+        width: auto;
+    }
+    .header_text {
+        width: 265px;
+        padding: 15px;
+        gap: 5px;
+    }
+    .header_section h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .table_container {
+        width: 100%;
+    }
+    .table_container table thead tr th:nth-child(1) {
+        text-align: left;
+        width: 600px;
+    }
+
+    .table_container table thead tr th {
+        font-size: 12px;
+    }
+
+}

@@ -41,8 +41,8 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
+          className="header_section"
         >
-          <div className="header_section">
             <h1 >Event. Planning. <br /> Genius.</h1>
             <div className="header_box">
               <div className="header_info">
@@ -55,7 +55,6 @@ export default function Home() {
                   <p className="mb">Plus. No monthly or annual fees. </p>
                 </div>
               </div>
-            </div>
           </div>
         </motion.div>
 
@@ -63,12 +62,11 @@ export default function Home() {
           style={{
             animation: 'scale-up-tl 1s forwards',
           }}
+          className='Hero_imgs'
         >
-          <div className='Hero_imgs' >
             <Image src={Landingmain} alt='' className='Hero_img' />
 
             <Image src={Ellispse} alt="" className='back_hero_img' style={{ transform: `rotate(${rotation}deg)` }} />
-            </div>
         </motion.div>
 
       </section>

@@ -79,3 +79,13 @@ box-shadow: 4px 4px 4px 0px rgba(75, 75, 75, 0.25) inset;
     width: 290px;
     height: 240px;
 }
+
+@media screen and (max-width: 786px) {
+    .orgainer_card{
+        gap: 0;
+    }
+    .event_card img{
+        width: 270px;
+    }
+    
+}
