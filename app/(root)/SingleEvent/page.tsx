@@ -9,10 +9,12 @@ import { RiCloseFill } from "react-icons/ri";
 import { BsShare } from 'react-icons/bs';
 
 
-
+import '../../../public/Renderer Desktop - Stadium 2.png'
+import { IoIosArrowBack } from 'react-icons/io'
 
 const SingleEvent = () => {
     return (
+        <>
         <div className='main_container'>
             <div className='single_event_sec'>
                 <div className="single_event_upper">
@@ -66,7 +68,7 @@ const SingleEvent = () => {
                                         <div className="get_ticket_overi">
 
                                             <h1>Event Title</h1>
-                                            <p className="res_yellow">Saturday, July 5, 2025 at 7:30 pm PST</p>
+                                            {/* <p className="res_yellow">Saturday, July 5, 2025 at 7:30 pm PST</p> */}
                                             <p className="res_p">Select your seat(s) or table(s) below to add it to your cart</p>
                                         </div>
                                         <Image alt='' src={Render} className="res_triangle" />
@@ -276,17 +278,7 @@ const SingleEvent = () => {
 
                                         </a>
                                         <a className="fclose pc_none" href="#popup14">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
-                                                <g clip-path="url(#clip0_124_27)">
-                                                    <path d="M15 0.84375C7.17188 0.84375 0.84375 7.17188 0.84375 15C0.84375 22.8281 7.17188 29.2031 15 29.2031C22.8281 29.2031 29.2031 22.8281 29.2031 15C29.2031 7.17188 22.8281 0.84375 15 0.84375ZM15 27.0938C8.34375 27.0938 2.95312 21.6562 2.95312 15C2.95312 8.34375 8.34375 2.95312 15 2.95312C21.6562 2.95312 27.0938 8.39062 27.0938 15.0469C27.0938 21.6562 21.6562 27.0938 15 27.0938Z" fill="#FAE100" />
-                                                    <path d="M18.8438 7.92188C18.4219 7.5 17.7656 7.5 17.3438 7.92188L11.1562 14.25C10.7344 14.6719 10.7344 15.3281 11.1562 15.75L17.3438 22.0781C17.5313 22.2656 17.8125 22.4062 18.0937 22.4062C18.375 22.4062 18.6094 22.3125 18.8438 22.125C19.2656 21.7031 19.2656 21.0469 18.8438 20.625L13.3594 15L18.8438 9.42188C19.2656 9 19.2656 8.29688 18.8438 7.92188Z" fill="#FAE100" />
-                                                </g>
-                                                <defs>
-                                                    <clipPath id="clip0_124_27">
-                                                        <rect width="30" height="30" fill="white" />
-                                                    </clipPath>
-                                                </defs>
-                                            </svg>
+                                        <IoIosArrowBack />
                                         </a>
                                         <div className="get_ticket_overi pc_none">
 
@@ -591,6 +583,18 @@ const SingleEvent = () => {
                 </div>
             </div>
         </div>
+        <div className="single_sticky_bar pc_none2">
+        <div className="sticky_inner">
+            <p><span>$70</span> - <span></span>$90</p>
+            <div className="box">
+                <a className="btn sm" href="#popup14">Get Tickets</a>
+            </div>
+        </div>
+    </div>
+        
+
+        </>
+        
     )
 }
 

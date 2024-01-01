@@ -5,6 +5,7 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 
 import './index.css'
+import { BsX, BsList } from 'react-icons/bs'
 
 
 
@@ -22,10 +23,8 @@ const Header = () => {
             </Link>
 
 
-            <button onClick={toggleMenu} className={`menu-btn ${isOpen ? 'open' : ''}`}>
-                <span></span>
-                <span></span>
-                <span></span>
+            <button onClick={toggleMenu} className="menu-btn">
+                {isOpen ? <BsX className="icon_i" /> : <BsList className="icon_i" />}
             </button>
             <div className={`menu ${isOpen ? 'open' : ''}`}>
 

@@ -65,9 +65,7 @@ nav{
 .login-button:hover {
     color: var(--color-yellow);
 }
-.pc_none {
-    display: none !important;
-}
+
   @media (max-width: 768px) {
     .menu {
         display: none;
@@ -102,18 +100,20 @@ nav{
     }
   
     .menu-btn.open span:nth-child(1) {
-      transform: rotate(45deg) translate(5px, 6px);
+      transform: none; /* Remove rotation */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(45deg); /* Rotate 45 degrees */
     }
   
     .menu-btn.open span:nth-child(2) {
-      opacity: 0;
+      transform: none; /* Remove rotation */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(-45deg); /* Rotate -45 degrees */
     }
-  
-    .menu-btn.open span:nth-child(3) {
-      transform: rotate(-45deg) translate(5px, -6px);
-    }
-    
-    
   
     
     .menu.open {
@@ -123,6 +123,7 @@ nav{
       width: 100%;
       
     }
+    
     
     .menu ul {
       list-style-type: none;
@@ -165,7 +166,10 @@ nav{
         gap: 5px;
         padding: 10px;
     }
+    
   }
 
   
-  
+  .icon_i {
+    font-size: 28px; /* Adjust the size as needed */
+}

@@ -49,7 +49,7 @@ export default function Home() {
               <div className="header_info">
                 <p >Create an account for FREE </p>
                 <div>
-                  <Link href="" className="btn" >Sign Up</Link>
+                  <Link href="/Sign_Up" className="btn" >Sign Up</Link>
                 </div>
                 <div className="header_text" >
                   <p className="yellow_cr">We’re the All-in-One Platform you’ve been waiting for.</p>
@@ -109,7 +109,7 @@ export default function Home() {
               transition={{ duration: 0.5 }}
             >
             <div className="show_info" >
-              <h2>Create your events with ease.</h2>
+              <h2 className='res_none'>Create your events with ease.</h2>
               <p>Need reserved seating for <br />your event? Not a <br />problem.</p>
               <p>Use our built-in designer to <br /> customize your seating chart and  <br /> allow customers to select their<br />seats at checkout</p>
             </div>

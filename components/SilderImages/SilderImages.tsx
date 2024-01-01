@@ -39,18 +39,20 @@ const SilderImages = () => {
       });
       if (isMobile) {
         return (
+            <>
+            <h2 className='heading_b'>Create your events with ease.</h2>
             <Swiper
                 spaceBetween={30}
                 centeredSlides={true}
                 autoplay={{
-                    delay: 2500,
+                    delay: 1500,
                     disableOnInteraction: false,
                 }}
                 pagination={{
                     clickable: true,
                 }}
-                navigation={true}
-                modules={[Autoplay, Pagination, Navigation]}
+                // navigation={true}
+                modules={[Autoplay, Pagination,]}
                 className="mySwiper"
             >
                 <SwiperSlide>
@@ -63,6 +65,7 @@ const SilderImages = () => {
                     <Image src={Des_3} alt='des_3' /> 
                 </SwiperSlide>
             </Swiper>
+            </>
         );
     }
   

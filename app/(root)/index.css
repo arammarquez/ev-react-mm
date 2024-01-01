@@ -26,7 +26,7 @@ main{
     filter: blur(250px);
     top: -237px;
     left: -720px;
-    z-index: 1;
+    z-index: 0;
     width: 1083px;
     image-rendering: optimizeQuality;
     height: 799px;
@@ -73,7 +73,7 @@ main{
 }
 .header_section h1 {
     color: #FFF;
-    font-family: Inter;
+    /* font-family: Inter; */
     font-size: 84px;
     font-style: normal;
     font-weight: 400;
@@ -195,6 +195,14 @@ main{
     background: radial-gradient(362.04% 223.32% at 0% -37.29%, rgba(38, 38, 38, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%), radial-gradient(126.7% 188.08% at 100% 100%, rgba(36, 36, 36, 0.10) 0%, rgba(103, 93, 0, 0.01) 56.25%), rgba(0, 0, 0, 0.10);
     box-shadow: 2px 2px 4px 0px #212121 inset, -2px -2px 4px 0px #25251F inset, 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
     /* justify-content: space-between !important   ; */
+    margin-top: 20px;
+    transition: all ease-in-out 0.25s;
+}
+.service_card:hover{
+    transform: translateY(-20px);
+}
+.service_card p{
+    font-size: 1rem;
 }
 
 .service_card:nth-child(2) {
@@ -250,12 +258,12 @@ main{
 .show_imgs img:nth-child(1) {
     width: 330px;
     height: 287px;
-    box-shadow: 0px 4px 4px 10px rgba(0, 0, 0, 0.25);
     transition: all ease-in-out 0.25s;
     overflow: hidden;
     border-radius: 20px;
 }
 .show_imgs img:nth-child(1):hover {
+    box-shadow: 0px 4px 4px 10px rgba(0, 0, 0, 0.25);
     z-index: 1;
     transform: scale(1.15);
 }
@@ -269,17 +277,16 @@ main{
     transition: all ease-in-out 0.25s;
     overflow: hidden;
     border-radius: 20px;
-    box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.15);
 }
 .show_imgs img:nth-child(2):hover {
     z-index: 1;
+    box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.15);
     transform: scale(1.15);
 }
 
 
 
 .show_imgs img:nth-child(3) {
-    box-shadow: 0px 4px 4px 10px rgba(0, 0, 0, 0.15);
     width: 440px;
     height: 237.742px;
     margin-top: -70px;
@@ -288,6 +295,7 @@ main{
 }
 .show_imgs img:nth-child(3):hover {
     z-index: 1;
+    box-shadow: 0px 4px 4px 10px rgba(0, 0, 0, 0.15);
     transform: scale(1.15);
 }
 
@@ -396,27 +404,7 @@ main{
         width: 55%;
         /* margin-right: 20px; */
     }
-    .show_imgs img:nth-child(1) {
-        box-shadow: 0px 4px 4px 10px rgba(0, 0, 0, 0.25);
-        width: 160px;
-        height: 160px;
-        margin-left: -75px;
-    }
-
-    .show_imgs img:nth-child(2) {
-        margin-top: -35px;
-        margin-left: -40px;
-        width: 260px;
-        height: 140px;
-    }
-
-    .show_imgs img:nth-child(3) {
-        margin-top: -35px;
-        margin-bottom: 20px;
-        margin-left: 50px;
-        width: 260px;
-        height: 140px;
-    }
+    
      .show_container {
         justify-content: center;
     }

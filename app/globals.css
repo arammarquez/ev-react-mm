@@ -507,69 +507,6 @@ body {
 
 
 
-/* ----------------------cards------------------ */
-.service_cards_section {
-    margin-top: 90px;
-    /* text-align: center; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 90px;
-    justify-content: space-between;
-}
-
-
-.service_cards_section h1 {
-    text-align: center;
-    color: #FFF;
-    font-size: 24px;
-    border-bottom: 1px solid var(--color-yellow);
-    padding: 5px;
-}
-
-.service_cards {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    margin-top: 50px;
-    /* flex-wrap: wrap; */
-    justify-content: center;
-    /* justify-content: space-between; */
-}
-
-.service_card {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 25px;
-    text-align: center;
-    width: 210px;
-    height: 250px;
-    padding: 20px;
-    border-radius: 10px;
-    font-size: 13px;
-    background: radial-gradient(362.04% 223.32% at 0% -37.29%, rgba(38, 38, 38, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%), radial-gradient(126.7% 188.08% at 100% 100%, rgba(36, 36, 36, 0.10) 0%, rgba(103, 93, 0, 0.01) 56.25%), rgba(0, 0, 0, 0.10);
-    box-shadow: 2px 2px 4px 0px #212121 inset, -2px -2px 4px 0px #25251F inset, 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
-    /* justify-content: space-between !important   ; */
-}
-
-.service_card:nth-child(2) {
-    border-radius: 10px;
-    background: radial-gradient(224.17% 163.4% at 37.64% 29.35%, rgba(38, 38, 38, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%), radial-gradient(97.31% 137.15% at 100% 100%, rgba(36, 36, 36, 0.10) 0%, rgba(103, 93, 0, 0.01) 56.25%), rgba(0, 0, 0, 0.10);
-    box-shadow: 2px 2px 4px 0px #212121 inset, -2px -2px 4px 0px #25251F inset, 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
-}
-
-.service_card:nth-child(3) {
-    border-radius: 10px;
-    background: radial-gradient(224.17% 163.4% at 37.64% 29.35%, rgba(38, 38, 38, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%), radial-gradient(97.31% 137.15% at 100% 100%, rgba(36, 36, 36, 0.10) 0%, rgba(103, 93, 0, 0.01) 56.25%), rgba(0, 0, 0, 0.10);
-    box-shadow: 2px 2px 4px 0px #212121 inset, -2px -2px 4px 0px #25251F inset, 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
-}
-
-.service_card_title {
-    font-size: 18px;
-    /* font-weight: 600; */
-}
-
 
 
 
@@ -3555,15 +3492,7 @@ input:checked+.slider:before {
 
 /* -------------------------login----------------------- */
 
-.login_section {
-    width: 65%;
-    margin: 0 auto;
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: row;
-    gap: 115px;
 
-}
 
 
 .yellow_bg {
@@ -3659,190 +3588,7 @@ input:checked+.slider:before {
 
 
 /* -------------------------------popup---------------------------- */
-.get_ticketp {
-    display: flex;
-    background: #000;
-    border-radius: 10px;
-    position: relative;
-    margin: auto;
-    margin-top: 100px;
-    justify-content: center;
-    /* align-items: center; */
-    width: 90%;
 
-}
-
-.get_ticket_over {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 100%;
-}
-
-.get_ticket_overi {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-left: 30px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-.promo_ticket {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
-    /* padding: 30px; */
-    padding-bottom: 10px;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.promo_ticket form {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding-left: 30px;
-}
-
-.promo_ticket_input {
-    border-radius: 25px;
-    border: 1px solid #FAE100;
-    background: black;
-    padding: 10px;
-}
-
-.promo_ticket_input input {
-    background: transparent;
-    border: none;
-    outline: none;
-}
-
-.promo_ticket_input button {
-    background: transparent;
-    color: #B1B1B1;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    /* margin-right: 20px; */
-}
-
-.promo_ticket .box {
-    padding: 0 !important;
-    margin-top: 0 !important;
-}
-
-.get_ticket_cart {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-}
-
-.get_ticket_carti {
-    width: 250px;
-    height: 250px;
-    border-radius: 0px 10px 0px 0px;
-    background: #D9D9D9;
-}
-
-.cart_ticker {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 90%;
-    /* align-items: flex-end; */
-    padding-left: 10px;
-    /* justify-content: space-between; */
-    gap: 20px;
-}
-
-.cart_ticker h2 {
-    margin-top: 10px;
-}
-
-
-
-
-
-
-
-.main_buy_form {
-    /* width: 100%; */
-    margin-left: 30px;
-}
-
-.buy_ticket_row {
-    width: 100%;
-    display: flex;
-    gap: 15px;
-    margin-top: 20px;
-}
-
-.buy_ticket_row input {
-    border-radius: 25px;
-    background: #FFF;
-    padding: 10px 25px;
-    border: none;
-    outline: none;
-}
-
-.pay_opt {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 50px;
-}
-
-.card_info2 {
-    display: flex;
-    gap: 10px;
-    margin-left: 20px;
-}
-
-.card_info2 input {
-    outline: none;
-    border: none;
-    padding: 10px;
-    border-radius: 25px;
-}
-
-.card_no {
-    width: 250px;
-}
-
-.mm {
-    width: 60px;
-    padding: 2px;
-}
-
-.card_infoend {
-    margin-left: 30px;
-    margin-top: 10px;
-}
-
-.back_form {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.back_btns {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-
-}
-
-.bx-chevron-left {
-    color: var(--color-yellow);
-}
-
-
-.cart_btns {
-    margin-top: 240px;
-}
 
 .main_heading_Confirma label {
     margin-top: 20px;
@@ -4695,6 +4441,8 @@ input:checked+.slider:before {
     display: none;
 }
 
+
+
 .pc_none2 {
     display: none;
 }
@@ -5500,10 +5248,7 @@ input:checked+.slider:before {
 
     
 
-    .show_info h2 {
-        text-align: center;
-    }
-
+   
     
 
     .service_card {
@@ -5813,9 +5558,7 @@ input:checked+.slider:before {
         align-items: center;
     }
 
-    .single_event_img {
-        width: 80%;
-    }
+   
 
     .single_event_info {
         flex-direction: column;
@@ -5834,17 +5577,7 @@ input:checked+.slider:before {
         background: transparent;
     }
 
-    .get_ticketp {
-        flex-direction: column-reverse;
-        margin-top: 100px;
-        align-items: center;
-        gap: 20px;
-        /* max-width: 100.15%; */
-        width: 90%;
-        padding: 10px;
-        /* text-align: center; */
-    }
-
+    
     .promo_ticket {
         flex-direction: column;
         gap: 40px;
@@ -6003,13 +5736,11 @@ input:checked+.slider:before {
         margin: 0;
     }
 
-    .pc_none {
-        display: flex;
-    }
+    
 
-    .res_none {
+    /* .res_none {
         display: none !important;
-    }
+    } */
 }
 
 @media screen and (max-width: 850px) {
@@ -6105,6 +5836,9 @@ input:checked+.slider:before {
         display: block;
     }
 
+     .pc_none {
+        display: flex;
+    }
     .res_m {
         padding-bottom: 20px;
         border-bottom: 1px solid gray;
@@ -6182,6 +5916,10 @@ input:checked+.slider:before {
 
     .pri_plan {
         width: 100%;
+        
+    }
+    .manager_blockssm{
+        width: 100%;
     }
 
     .pri_plan2 {
@@ -6193,7 +5931,7 @@ input:checked+.slider:before {
     }
 
     .lower_grid {
-        width: 80%;
+        width: 100%;
     }
 
 
