@@ -10,6 +10,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import ServiceCards from '@/components/ServiceCards/ServiceCards';
 import useScrollRotate from '@/Hooks/useScrollRotate';
+import SilderImages from '@/components/SilderImages/SilderImages';
 
 
 
@@ -64,9 +65,12 @@ export default function Home() {
           }}
           className='Hero_imgs'
         >
+          <div className="wapper_Hero_imgs">
+
             <Image src={Landingmain} alt='' className='Hero_img' />
 
             <Image src={Ellispse} alt="" className='back_hero_img' style={{ transform: `rotate(${rotation}deg)` }} />
+          </div>
         </motion.div>
 
       </section>
@@ -93,18 +97,11 @@ export default function Home() {
         <div className="show_section">
           <div className="mid_effect"></div>
           <div className="show_container">
-            <motion.div
-              ref={ref2}
-              initial={{ opacity: 0, x: -200 }}  // Starts off screen to the left
-              animate={{ opacity: inView2 ? 1 : 0, x: inView2 ? 0 : -100 }}  // Slide in when in view
-              transition={{ duration: 0.5 }}
-            >
-              <div className="show_imgs">
-                <Image src={Des_1} alt='des_1' />
-                <Image src={Des_2} alt='des_1' />
-                <Image src={Des_3} alt='des_1' />
-              </div>
-            </motion.div>
+            
+                <SilderImages/>
+
+
+
             <motion.div
               ref={ref2}
               initial={{ opacity: 0, x: 100 }}  // Starts off screen to the left
