@@ -91,11 +91,11 @@ main{
     flex-direction: column;
     gap: 40px;
     justify-content: space-between;
+    
 }
 
 .header_info p {
     color: #FFF;
-    font-family: Inter;
     /* font-size: 24px; */
     font-size: 18px;
     font-style: normal;
@@ -442,6 +442,7 @@ main{
         width: 265px;
         padding: 15px;
         gap: 5px;
+        text-align: center;
     }
     .header_section h1 {
         font-size: 40px;
@@ -457,6 +458,9 @@ main{
 
     .table_container table thead tr th {
         font-size: 12px;
+    }
+    .header_info{
+        align-items: center;
     }
 
 }
